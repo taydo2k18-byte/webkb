@@ -51,7 +51,8 @@ export async function setupVite(app, server) {
     });
 }
 export function serveStatic(app) {
-    const distPath = path.resolve(import.meta.dirname, "public");
+    // After build, vite.js is in dist/server, client build is in dist/public
+    const distPath = path.resolve(import.meta.dirname, "../../dist/public");
     if (!fs.existsSync(distPath)) {
         throw new Error(`Could not find the build directory: ${distPath}, make sure to build the client first`);
     }
