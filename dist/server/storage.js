@@ -1,4 +1,4 @@
-import { users, kbSections, kbArticles } from "../shared/schema.js";
+import { users, kbSections, kbArticles } from "@shared/schema.js";
 import { db } from "./db.js";
 import { eq, like, or } from "drizzle-orm";
 export class DatabaseStorage {
