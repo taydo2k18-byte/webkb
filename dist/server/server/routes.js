@@ -35,8 +35,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 import { createServer } from "http";
-import { storage } from "./storage";
-import { insertKbSectionSchema, insertKbArticleSchema } from "@shared/schema";
+import { storage } from "./storage.js";
+import { insertKbSectionSchema, insertKbArticleSchema } from "@shared/schema.js";
 import { z } from "zod";
 export function registerRoutes(app) {
     return __awaiter(this, void 0, void 0, function () {
