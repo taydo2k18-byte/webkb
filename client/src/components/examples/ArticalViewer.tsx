@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArticleViewer } from "../ArticleViewer";
+import { ArticleViewer } from "../ArticalViewer";
 
 export default function ArticleViewerExample() {
   const [article, setArticle] = useState({
