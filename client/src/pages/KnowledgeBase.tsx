@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { KnowledgeBaseSidebar } from "@/components/KnowleadgeBaseSidebar";
-import { ArticleViewer } from "@/components/ArticalViewer";
+import { ArticleViewer } from "@/components/ArticleViewer";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
