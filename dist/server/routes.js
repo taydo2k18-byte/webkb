@@ -1,6 +1,6 @@
 import { createServer } from "http";
 import { storage } from "./storage.js";
-import { insertKbSectionSchema, insertKbArticleSchema } from "@shared/schema.js";
+import { insertKbSectionSchema, insertKbArticleSchema } from "../shared/schema.js";
 import { z } from "zod";
 export async function registerRoutes(app) {
     // Knowledge Base Sections API

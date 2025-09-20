@@ -3,7 +3,7 @@ import {
   type KbSection, type InsertKbSection,
   type KbArticle, type InsertKbArticle,
   users, kbSections, kbArticles 
-} from "@shared/schema.js";
+} from "../shared/schema.js";
 import { db } from "./db.js";
 import { eq, like, or, isNull } from "drizzle-orm";
 
